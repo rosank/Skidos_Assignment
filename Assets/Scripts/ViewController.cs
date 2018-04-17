@@ -26,7 +26,11 @@ public class ViewController : MonoBehaviour {
             CreateChoice(quest.choices.Length - choices.Length, questionUI.ChoiceRoot, ref choices);
         }
         for(int i = 0; i < choices.Length; i++) {
+            choices[i].gameObject.SetActive(false);
+        }
+        for(int i = 0; i < quest.choices.Length; i++) {
             choices[i].Set(quest.choices[i].choice, quest.choices[i].votes.ToString());
+            choices[i].gameObject.SetActive(true);
         }
         questionUI.UpdateScrollRect();
         btnRefresh.interactable = true;
