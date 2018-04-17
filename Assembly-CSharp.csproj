@@ -64,11 +64,11 @@
     <Compile Include="Assets\Scripts\UI\CustomButton.cs" />
     <Compile Include="Assets\Scripts\UI\QuestionUI.cs" />
     <Compile Include="Assets\Scripts\ViewController.cs" />
-    <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>D:/Unity/Skidos_Assignment/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/Unity/Skidos_Assignment/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>D:/Git/Skidos_Assignment/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.StandardEvents">
+      <HintPath>D:/Git/Skidos_Assignment/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>E:/Program Files/Unity 2018.1.0b12/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
